@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Test xss</title>
+</head>
+
+
+<body>
+  <script>alert(document.domain);</script>
+
+</body>
+
+</html>
+
